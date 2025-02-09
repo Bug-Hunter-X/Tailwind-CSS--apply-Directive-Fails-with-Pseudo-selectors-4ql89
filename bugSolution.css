@@ -1,0 +1,22 @@
+/* bugSolution.css */
+
+.my-custom-class {
+  /* Base styles */
+  background-color: blue;
+  color: white;
+}
+
+.my-custom-class:hover {
+  /* Hover styles applied directly */
+  background-color: red;
+  color: black;
+}
+
+/* Alternative solution, avoid @apply for hover */
+/*.my-custom-class {
+  @apply bg-blue text-white;
+}
+
+.my-custom-class:hover {
+  @apply bg-red text-black;
+}*/
